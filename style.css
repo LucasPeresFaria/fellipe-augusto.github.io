@@ -1,14 +1,11 @@
 body {
-    background-color: black;
+    background-color: #030303;
     margin: auto;
-    width: 980px;
-    align-content: center;
 }
 
 header {
     text-align: center;
     outline: 1px solid black;
-    color: white;
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 0;
@@ -16,61 +13,60 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
-
 }
 
 .topo {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.resumo, .formacao, .idioma, .habilidade, footer {
+.topo, .resumo, .formacao, .idioma, .habilidade, footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-/*.resumo p {
-    margin-left: 300px;
-    margin-right: 300px;
-}*/
-
 .resumo {
     background-color: rgba(51, 51, 51, 0.2);
     text-align: center;
-    margin: 5px 5px 5px 5px;
+    margin: 10px auto;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 75%;
 }
 
 .formacao {
-    background-color: rgba(51, 51, 51, 0.2);
+    background-color: rgba(51, 51, 51, 0.4);
     text-align: center;
-    margin: 5px 5px 5px 5px;
+    margin: 10px auto;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 75%;
 }
 
 .idioma {
     background-color: rgba(51, 51, 51, 0.2);
     text-align: center;
-    margin: 5px 5px 5px 5px;
+    margin: 10px auto;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 75%;
 }
 
 .habilidade {
-    background-color: rgba(51, 51, 51, 0.2);
+    background-color: rgba(51, 51, 51, 0.4);
     text-align: center;
-    margin: 5px 5px 5px 5px;
+    margin: 10px auto;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 75%;
 }
 
 footer {
     background-color: rgba(51, 51, 51, 0.2);
     text-align: center;
-    margin: 100px 5px 5px 5px;
+    margin: 50px auto;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 75%;
 }
 
 footer img {
