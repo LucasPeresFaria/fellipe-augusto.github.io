@@ -15,10 +15,6 @@ header {
     background-size: 150%;
 }
 
-.topo {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .topo, .resumo, .formacao, .idioma, .habilidade, footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
