@@ -1,75 +1,123 @@
+<!--
+    SlideShow by https://www.w3schools.com/howto/howto_js_slideshow.asp
+    Adaptado por Fellipe Augusto
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta chatset="UTF-8">
-        <title>Fellipe Augusto</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <header>
-            <div class="topo">
-                <h1>Fellipe Augusto Reis Evangelista</h1>
+
+<head>
+    <meta chatset="UTF-8">
+    <title>Fellipe Augusto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="javascript/main.js"></script>
+    <header>
+        <div class="topo">
+            <h1>Fellipe Augusto Reis Evangelista</h1>
+        </div>
+    </header>
+    <section>
+        <div class="resumo">
+            <h3>Resumo</h3>
+
+            <p>Não possuo experiência profissional formal no mercado de trabalho. Trabalhei como freelancer em eventos
+                sociais durante 4 anos exercendo a função de auxiliar de cinegrafista no começo e, posteriormente,
+                assumindo a responsabilidade de cinegrafista.</p>
+
+            <p>Possuo afinidade com a área de tecnologia da informação, tanto em hardware como em software.</p>
+
+            <p>Atualmente sou aluno da Faculdade de Tecnologia de Sorocaba no curso <strong>Análise e Desenvolvimento de
+                    Sistemas.</strong></p>
+        </div>
+    </section>
+    <section>
+        <div class="formacao">
+            <h3>Formação</h3>
+
+            <p><strong>08/2017 - Cursando (Finalização prevista: 08/2020)</strong></p>
+
+            <p>FATEC José Crespo Gonzales - Sorocaba</p>
+
+            <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+
+            <p><strong>Nível:</strong> Ensino Superior</p>
+
+            <p><strong>Estado:</strong> São Paulo</p>
+        </div>
+    </section>
+    <section>
+        <div class="idioma">
+            <h3>Idiomas</h3>
+
+            <p><strong>Português - Nível:</strong> Nativo</p>
+
+            <p><strong>Inglês - Nível:</strong> Intermediário</p>
+        </div>
+    </section>
+    <section>
+        <div class="habilidade">
+            <h3>Habilidades</h3>
+
+            <p><strong>Programação:</strong> C (nível acadêmico), C# (nível acadêmico).</p>
+
+            <p><strong>Gráficos/Web:</strong> Adobe Photoshop (intermediário), Adobe Premiere (básico), Adobe Lightroom
+                (intermediário).</p>
+
+            <p><strong>Aplicações de Escritório:</strong> Microsoft Office (intermediário).</p>
+
+            <p><strong>Sistemas Operacionais:</strong> Windows.</p>
+        </div>
+    </section>
+    <section>
+        <div class="hobbyDesc">
+            <h3>Hobby</h3>
+            <p>O meu trabalho como cinegrafista gerou um hobby muito legal na minha vida: a fotografia.
+                Eu admiro muito essa arte e quando tenho oportunidade faço diversas fotos
+                de paisagens e pessoas em momentos espontâneos.
+            </p>
+            <p>Abaixo disponibilizo algumas fotos que fiz na minha última viagem ao Beto Carrero World.</p>
+        </div>
+    </section>
+    <section>
+        <div class="hobby-container">
+            <div class="hobbySlide fade">
+                <div class="numberText">1 / 6</div>
+                <img src="css/assets/IMG_8358.jpg" alt="IMG_8358" title="IMG_8358" width="100%">
             </div>
-        </header>
-        <section>
-            <div class="resumo">
-                <h3>Resumo</h3>
-                
-                <p>Não possuo experiência profissional formal no mercado de trabalho. Trabalhei como freelancer em eventos sociais durante 4 anos exercendo a função de auxiliar de cinegrafista no começo e, posteriormente, assumindo a responsabilidade de cinegrafista.</p>
-                
-                <p>Possuo afinidade com a área de tecnologia da informação, tanto em hardware como em software.</p>
-                
-                <p>Atualmente sou aluno da Faculdade de Tecnologia de Sorocaba no curso <strong>Análise e Desenvolvimento de Sistemas.</strong></p>
+            <div class="hobbySlide fade">
+                <div class="numberText">2 / 6</div>
+                <img src="css/assets/IMG_8368.jpg" alt="IMG_8368" title="IMG_8368" width="100%">
             </div>
-        </section>
-        <section>
-             <div class="formacao">
-                 <h3>Formação</h3>
-                 
-                 <p><strong>08/2017 - Cursando (Finalização prevista: 08/2020)</strong></p>
-                 
-                 <p>FATEC José Crespo Gonzales - Sorocaba</p>
-                 
-                 <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
-                 
-                 <p><strong>Nível:</strong> Ensino Superior</p>
-                 
-                 <p><strong>Estado:</strong> São Paulo</p>
-             </div>
-        </section>
-        <section>
-            <div class="idioma">
-                <h3>Idiomas</h3>
-                
-                <p><strong>Português - Nível:</strong> Nativo</p>
-                
-                <p><strong>Inglês - Nível:</strong> Intermediário</p>
+            <div class="hobbySlide fade">
+                <div class="numberText">3 / 6</div>
+                <img src="css/assets/IMG_8402.jpg" alt="IMG_8402" title="IMG_8402" width="100%">
             </div>
-        </section>
-        <section>
-            <div class="habilidade">
-                <h3>Habilidades</h3>
-                
-                <p><strong>Programação:</strong> C (nível acadêmico), C# (nível acadêmico).</p>
-                
-                <p><strong>Gráficos/Web:</strong> Adobe Photoshop (intermediário), Adobe Premiere (básico), Adobe Lightroom (intermediário).</p>
-                
-                <p><strong>Aplicações de Escritório:</strong> Microsoft Office (intermediário).</p>
-                
-                <p><strong>Sistemas Operacionais:</strong> Windows.</p>
+            <div class="hobbySlide fade">
+                <div class="numberText">4 / 6</div>
+                <img src="css/assets/IMG_8453.jpg" alt="IMG_8453" title="IMG_8453" width="100%">
             </div>
-        </section>
-        <section>
-            <div class="hobby">
-                <h3>Hobby</h3>
-                <p>teste</p>
+            <div class="hobbySlide fade">
+                <div class="numberText">5 / 6</div>
+                <img src="css/assets/IMG_8671.jpg" alt="IMG_8671" title="IMG_8671" width="100%">
             </div>
-        </section>  
-        <footer>
-            <p>Fellipe Augusto - 2019 | fare2050@gmail.com</p>
-            <a href="https://www.facebook.com/profile.php?id=100004641521109" target="_blank"><img src="fb-icon.png" alt="Facebook" title="Facebook" width="30px" height="30px"></a>
-            <a href="https://www.linkedin.com/in/fellipe-augusto-reis-evangelista/" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn" title="LinkedIn" width="30px" height="30px"></a>
-        </footer>
-    </body>
+            <div class="hobbySlide fade">
+                <div class="numberText">6 / 6</div>
+                <img src="css/assets/IMG_8673.jpg" alt="IMG_8673" title="IMG_8673" width="100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <footer>
+        <p>Fellipe Augusto - 2019 | fare2050@gmail.com</p>
+        <a href="https://www.facebook.com/profile.php?id=100004641521109" target="_blank"><img
+                src="css/assets/fb-icon.png" alt="Facebook" title="Facebook" width="30px" height="30px"></a>
+        <a href="https://www.linkedin.com/in/fellipe-augusto-reis-evangelista/" target="_blank"><img
+                src="css/assets/linkedin-logo.png" alt="LinkedIn" title="LinkedIn" width="30px" height="30px"></a>
+    </footer>
+</body>
+
 </html>
